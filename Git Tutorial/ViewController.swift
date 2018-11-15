@@ -15,9 +15,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("message:    \(message)")
+        print("message:    \(reverse(text: message))")
     }
 
+    func reverse( text: String) -> String {
+        
+        return String(text.reversed())
+    }
 
 }
 
