@@ -12,6 +12,10 @@
 		721B630F219D8351006DD261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721B630D219D8351006DD261 /* Main.storyboard */; };
 		721B6311219D8353006DD261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721B6310219D8353006DD261 /* Assets.xcassets */; };
 		721B6314219D8353006DD261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721B6312219D8353006DD261 /* LaunchScreen.storyboard */; };
+		7226A0E821AD52220054042E /* KeyFrameAbimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226A0E721AD52220054042E /* KeyFrameAbimationViewController.swift */; };
+		7226A0EA21AE98000054042E /* ChainAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226A0E921AE98000054042E /* ChainAnimationsViewController.swift */; };
+		7226A0EC21AEE53B0054042E /* DecodableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226A0EB21AEE53B0054042E /* DecodableViewController.swift */; };
+		7226A0EE21B00D030054042E /* AlgoritmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226A0ED21B00D030054042E /* AlgoritmsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		721B6310219D8353006DD261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		721B6313219D8353006DD261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		721B6315219D8353006DD261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7226A0E721AD52220054042E /* KeyFrameAbimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameAbimationViewController.swift; sourceTree = "<group>"; };
+		7226A0E921AE98000054042E /* ChainAnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainAnimationsViewController.swift; sourceTree = "<group>"; };
+		7226A0EB21AEE53B0054042E /* DecodableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableViewController.swift; sourceTree = "<group>"; };
+		7226A0ED21B00D030054042E /* AlgoritmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoritmsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				721B6309219D8351006DD261 /* AppDelegate.swift */,
 				721B630B219D8351006DD261 /* ViewController.swift */,
+				7226A0E721AD52220054042E /* KeyFrameAbimationViewController.swift */,
+				7226A0E921AE98000054042E /* ChainAnimationsViewController.swift */,
+				7226A0EB21AEE53B0054042E /* DecodableViewController.swift */,
+				7226A0ED21B00D030054042E /* AlgoritmsViewController.swift */,
 				721B630D219D8351006DD261 /* Main.storyboard */,
 				721B6310219D8353006DD261 /* Assets.xcassets */,
 				721B6312219D8353006DD261 /* LaunchScreen.storyboard */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				721B630C219D8351006DD261 /* ViewController.swift in Sources */,
+				7226A0E821AD52220054042E /* KeyFrameAbimationViewController.swift in Sources */,
 				721B630A219D8351006DD261 /* AppDelegate.swift in Sources */,
+				7226A0EE21B00D030054042E /* AlgoritmsViewController.swift in Sources */,
+				7226A0EC21AEE53B0054042E /* DecodableViewController.swift in Sources */,
+				7226A0EA21AE98000054042E /* ChainAnimationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
